@@ -25,7 +25,7 @@ let increment = wave.frequency;
 
 function animate() {
     requestAnimationFrame(animate)
-    c.fillStyle = '#203744';
+    c.fillStyle = 'white';
     c.fillRect(0, 0, canvas.width, canvas.height);
     c.clearRect(0, 0, canvas.width, canvas.height);
 
