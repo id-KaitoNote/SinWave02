@@ -1,4 +1,5 @@
 'use strict';
+
 const gui = new dat.GUI();
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
@@ -11,19 +12,6 @@ const wave = {
     length: -0.003,
     amplitude: 100,
     frequency: 0.01
-}
-
-const strokeColor = {
-    h: 200,
-    s: 50,
-    l: 50
-}
-
-const backgroundColor = {
-    r: 0,
-    g: 0,
-    b: 0,
-    a: 0.01
 }
 
 const waveFolder = gui.addFolder('wave');
@@ -53,5 +41,4 @@ function animate() {
 }
 
 animate();
-
 
